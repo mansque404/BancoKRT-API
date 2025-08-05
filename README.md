@@ -88,6 +88,7 @@ dotnet test
 Endpoints da API (v1)
 
 Método HTTP	Endpoint	Descrição
+
 POST	/api/v1/clientespix	Cria um novo cliente com seu limite PIX.
 GET	/api/v1/clientespix/{documento}/{contaId}	Busca um registro de cliente específico.
 PATCH	/api/v1/clientespix/{documento}/{contaId}/limite	Atualiza o limite PIX de uma conta.
