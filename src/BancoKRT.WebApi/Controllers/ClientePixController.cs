@@ -58,7 +58,7 @@ namespace BancoKRT.WebApi.Controllers
         /// <response code="204">Se o cliente não for encontrado.</response>
         [HttpGet("{documento}/{contaId}", Name = "GetClienteByKey")]
         [ProducesResponseType(typeof(ClientePix), StatusCodes.Status200OK)]
-        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
         public async Task<IActionResult> GetClienteByKey(string documento, string contaId)
         {
             var query = new GetClienteByKeyQuery(documento, contaId);

@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\src\BancoKRT.WebApi\BancoKRT.WebApi.csproj" />
+    <ProjectReference Include="..\..\src\BancoKRT.WebApi\BancoKRT.WebApi.csproj" />
   </ItemGroup>
 
   <ItemGroup>
