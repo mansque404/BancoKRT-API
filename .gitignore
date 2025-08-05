@@ -1,0 +1,34 @@
+# Arquivos de Dependências e Pacotes
+**/[Pp]ackages/
+**/[Ww]pfe/
+**/[Dd]otnet-core/
+*.nupkg
+
+# Arquivos de build
+**/[Bb]in/
+**/[Oo]bj/
+**/[Rr]elease/
+**/[Dd]ebug/
+
+# Arquivos do Visual Studio
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+*.sln.DotSettings.user
+
+# Arquivos do Rider
+.idea/
+
+# Arquivos de log e teste
+*.log
+*.DS_Store
+*.Test.dll
+*.testsettings
+TestResult.xml
+*.VisualState.xml
+
+# Arquivos de segredos do usuário 
+secrets.json
+appsettings.Development.json
