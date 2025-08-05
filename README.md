@@ -78,7 +78,7 @@ Rode a aplicação:
 
 dotnet run --project src/BancoKRT.WebApi/BancoKRT.WebApi.csproj
 
-A API estará rodando. Acesse a documentação interativa do Swagger no seu navegador: https://localhost:<PORTA>/swagger/index.html.
+A API estará rodando. Acesse a documentação interativa do Swagger no seu navegador: https://localhost:(suaporta)/swagger/index.html.
 
 🧪 Como Rodar os Testes
 
